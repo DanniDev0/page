@@ -1,39 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
     <title>Website</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h3 class="title">Header logo</h3>
-        <nav>
-            <ul class="listTitle">
-                <li><a href="#">About me</a></li>
-                <li><a href="#">Projects</a></li>
-                <li><a href="#">Contact me</a></li>
-            </ul>
-        </nav>
+      <h3 class="title">Header logo</h3>
+      <nav>
+        <ul class="listTitle">
+          <li><a href="#">About me</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contact me</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-        <section>
-            <article></article>
-            <article></article>
-            <article></article>
-        </section>
-        <section>
-            <article>
-
-            </article>
-        </section>
+      <section class="HeroMain">
+        <article class="container">
+          <div class="info">
+            <h1 class="TitleDescription">Daniel software developer</h1>
+            <p class="Description">
+              This is my personal portfolio, where I showcase my personal
+              projects and my programming skills.
+            </p>
+            <button class="btn">Sign up</button>
+          </div>
+          <div class="imgSection">
+            <img src="./img/photo.jpg" alt="chracter photo" />
+          </div>
+        </article>
+      </section>
+      <section class="skills">
+        <article class="TitleSkills">
+            <h1>My Programming Skills</h1>
+        </article>
+        <article class="containerSkill">
+            <div class="skill">
+              <div class="cuadro">
+                <img src="./img/html.png" alt="Logo html">
+              </div>
+              <p>HTML (HyperText Markup Language)</p>
+            </div>
+            <div class="skill">
+              <div class="cuadro">
+                <img src="./img/css.png" alt="Logo css">
+              </div>
+              <p>CSS (Cascading Style Sheets)</p>
+            </div>
+            <div class="skill">
+              <div class="cuadro">
+                <img src="./img/js.png" alt="Logo Javascript">
+              </div>
+              <p>JAVASCRIPT</p>
+            </div>
+            <div class="skill">
+              <div class="cuadro">
+                <img src="./img/node.png" alt="Node js">
+              </div>
+              <p>NODE JS</p>
+            </div>
+        </article>
+      </section>
+      
     </main>
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+  </body>
 </html>

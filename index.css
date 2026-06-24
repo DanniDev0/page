@@ -36,3 +36,120 @@ nav ul li a{
     justify-content: space-around;
     gap: 50px;
 }
+
+
+
+
+.HeroMain {
+    background-color: #1f2937;
+    width: 100%;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 50px;
+}
+
+.info {
+    font-family: 'Roboto';
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.TitleDescription {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.Description {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.btn {
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: #3882f6;
+    font-family: 'Roboto';
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.imgSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgSection img {
+    width: 380px;   
+    height: 380px;     
+    object-fit: cover;  
+    border-radius: 10%; 
+}
+
+
+
+
+.skills {
+    width: 100%;
+    height: 500px;
+}
+
+.TitleSkills {
+    width: 100%;
+    height: 150px;
+    padding: 20px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 20px;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerSkill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin: 0px 30px;
+}
+
+.skill p {
+    font-family: 'Roboto';
+    margin-top: 10px;
+}
+
+.cuadro {
+    width: 100%;
+    height: 150px;
+    border: 4px solid #5e89cf;
+    border-radius: 10px;
+}
+
+.cuadro img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
